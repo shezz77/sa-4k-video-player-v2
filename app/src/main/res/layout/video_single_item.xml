@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:id="@+id/maincolor"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/clickevent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground"
+        android:backgroundTint="@color/list_item_selected_state"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="0dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/video_thumb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                app:riv_corner_radius="6dp"/>
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/video_thumb_selected"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@color/selected_color"
+
+                android:scaleType="centerCrop"
+                android:visibility="gone"
+                app:riv_corner_radius="6dp"/>
+
+            <ImageView
+                android:id="@+id/foldertag"
+                android:layout_width="30dp"
+                android:layout_height="14dp"
+                android:layout_alignRight="@+id/video_thumb"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/tag_new"
+                android:textColor="@color/white"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/ic_select"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/ic_selected"
+                android:backgroundTint="@color/light_gray"
+                android:scaleType="fitXY"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/ic_select1"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="6dp"
+                android:background="@drawable/ic_tick"
+                android:backgroundTint="@color/selected_color"
+                android:scaleType="fitXY"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/video_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right|center_vertical|center_horizontal|center"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/round_corner_timer"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="1dp"
+                android:text="02:20"
+                android:textColor="@color/white"
+                android:textSize="8dp" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="6dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/video_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:text="Title"
+                android:textColor="?attr/textcolor"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/optiontag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:background="?android:attr/selectableItemBackground"
+            android:backgroundTint="@color/list_item_selected_state"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/video_options"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="6dp"
+                android:padding="4dp"
+                android:src="@drawable/ic_option"
+                app:tint="?attr/textcolor" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

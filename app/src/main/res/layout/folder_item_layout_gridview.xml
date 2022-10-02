@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/mainbackcolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:id="@+id/clickevent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:backgroundTint="@color/list_item_selected_state"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="90dp"
+                    android:layout_height="80dp">
+
+                    <RelativeLayout
+                        android:id="@+id/main"
+                        android:layout_width="90dp"
+                        android:layout_height="80dp"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/video_thumb"
+                            android:layout_width="90dp"
+                            android:layout_height="80dp"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:background="@drawable/folder"
+                            android:scaleType="fitXY" />
+
+                        <ImageView
+                            android:id="@+id/ic_select"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_centerInParent="true"
+                            android:visibility="gone"
+                            android:layout_gravity="center"
+                            android:background="@drawable/ic_selected"
+                            android:backgroundTint="@color/list_item_normal_state"
+                            android:scaleType="fitXY" />
+
+                        <ImageView
+                            android:id="@+id/ic_select1"
+                            android:layout_width="18dp"
+                            android:layout_height="18dp"
+                            android:layout_centerInParent="true"
+                            android:visibility="gone"
+                            android:layout_gravity="center"
+                            android:background="@drawable/ic_tick"
+                            android:backgroundTint="@color/dark_gray"
+                            android:scaleType="fitXY" />
+
+                        <TextView
+                            android:id="@+id/newtag"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/video_thumb"
+                            android:layout_centerHorizontal="true"
+
+                            android:layout_marginTop="-2dp"
+                            android:text="New"
+                            android:textAlignment="gravity"
+                            android:textColor="#ff0000"
+                            android:textSize="10sp" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/foldertag"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="8dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/numbercricletred"
+                        android:gravity="center"
+                        android:text="10"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/white"
+                        android:textSize="10sp"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/folder_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:singleLine="true"
+                        android:text="Folder Name"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tvTotalVideosCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:singleLine="true"
+                        android:text="total"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single"
+        android:id="@+id/groupone">
+        <item
+            android:id="@+id/apptheme"
+            android:icon="@drawable/ic_app_theme"
+            android:title="App Theme" />
+        <item
+            android:id="@+id/videofolder"
+            android:icon="@drawable/folder"
+            android:title="Video Folder's" />
+    <item
+        android:id="@+id/nav_music"
+        android:icon="@drawable/baseline_music_video_black_24dp"
+        android:title="Music Library" />
+        <item
+            android:id="@+id/nav_private"
+            android:icon="@drawable/private_folder"
+            android:title="Private Folder" />
+        <item
+            android:id="@+id/nav_stream"
+            android:icon="@drawable/baseline_language_black_24dp"
+            android:title="Network Stream" />
+        <item
+            android:id="@+id/favorite_video"
+            android:icon="@drawable/baseline_favorite_black_36dp"
+            android:title="Favorite Video" />
+        <item
+            android:id="@+id/screen_mirroring"
+            android:icon="@drawable/baseline_cast_connected_black_36dp"
+            android:title="Screen Mirroring" />
+        <item
+            android:id="@+id/equalizer"
+            android:icon="@drawable/ic_equalizer"
+            android:title="Equalizer" />
+    <item
+        android:id="@+id/nav_setting"
+        android:icon="@drawable/baseline_settings_black_36dp"
+        android:title="Local Player Settings" />
+
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/grouptwo">
+        <item
+            android:id="@+id/shareapp"
+            android:icon="@drawable/ic_share"
+            android:title="Share App" />
+        <item
+            android:id="@+id/rateus"
+            android:icon="@drawable/baseline_thumb_up_black_36dp"
+            android:title="Rate our App" />
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/baseline_info_outline_black_36dp"
+            android:title="About us" />
+        <item
+            android:id="@+id/privacypolicy"
+            android:icon="@drawable/baseline_policy_black_36dp"
+            android:title="Privacy Policy" />
+    </group>
+</menu>

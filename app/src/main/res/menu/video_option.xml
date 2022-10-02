@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/play"
+        android:icon="@drawable/baseline_play_arrow_black_36dp"
+        android:visible="false"
+        android:title="Play" />
+    <item
+        android:id="@+id/lock"
+        android:icon="@drawable/baseline_lock_black_36dp"
+        android:visible="false"
+        android:title="Lock" />
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/baseline_favorite_black_36dp"
+        android:visible="false"
+        android:title="Favorite" />
+    <item
+        android:id="@+id/cut_video"
+        android:icon="@drawable/baseline_content_cut_black_36dp"
+        android:visible="false"
+        android:title="Cut Video" />
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/baseline_delete_black_24dp"
+        android:title="Delete" />
+
+    <item
+        android:id="@+id/rename"
+        android:icon="@drawable/baseline_edit_black_36dp"
+        android:visible="false"
+        android:title="Rename" />
+
+    <item
+        android:id="@+id/details"
+        android:icon="@drawable/baseline_info_outline_black_24dp"
+        android:title="Details" />
+</menu>

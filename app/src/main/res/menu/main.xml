@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/searchBar"
+        app:showAsAction="always"
+        android:title=""
+        app:searchIcon="@drawable/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        />
+    <item
+        android:id="@+id/lockmedia"
+        android:icon="@drawable/private_folder"
+        android:title=""
+        android:iconTint="@color/light_gray_bar1"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/sorting"
+        app:showAsAction="always"
+        android:title=""
+        android:visible="true"
+        android:iconTint="@color/black_semi_transparent"
+        android:icon="@drawable/baseline_view_compact_black_24dp"
+
+        />
+    <item
+        android:id="@+id/btn_refresh"
+        android:orderInCategory="100"
+        android:title="Refresh"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btn_select"
+        android:orderInCategory="100"
+        android:title="Select"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/btn_Create_Folder"
+        android:orderInCategory="100"
+        android:title="Create Folder"
+        app:showAsAction="never" />
+
+
+</menu>

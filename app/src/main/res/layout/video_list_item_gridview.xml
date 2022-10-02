@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+  android:id="@+id/maincolor"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/clickevent1"
+        android:background="?android:attr/selectableItemBackground"
+        android:backgroundTint="@color/list_item_selected_state"
+        android:layout_height="wrap_content">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/video_thumb"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher"
+            app:riv_corner_radius="6dp">
+
+        </com.makeramen.roundedimageview.RoundedImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/video_duration"
+            android:singleLine="true"
+            android:paddingRight="15dp"
+            android:gravity="right"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/video_thumb"
+            android:layout_alignRight="@+id/video_thumb"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:ellipsize="marquee"/>
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/video_thumb_selected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/selected_color"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            app:riv_corner_radius="6dp">
+
+    </com.makeramen.roundedimageview.RoundedImageView>
+
+
+    <ImageView
+            android:id="@+id/foldertag"
+            android:layout_width="34dp"
+            android:layout_height="16dp"
+            android:layout_alignRight="@+id/video_thumb"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/tag_new"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/ic_select"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/ic_selected"
+            android:backgroundTint="@color/light_gray"
+            android:scaleType="fitXY"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/ic_select1"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/ic_tick"
+            android:backgroundTint="@color/selected_color"
+            android:scaleType="fitXY"
+            android:visibility="gone" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp"
+
+        android:paddingBottom="10dp"
+        android:weightSum="10">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/clickevent"
+            android:layout_weight="1.5">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:orientation="vertical">
+                    <com.mxplayer.paksoft.LineProgress.LineProgress
+                        android:id="@+id/line_progress"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:visibility="gone"
+                        app:background_stroke_width="2dp"
+                        app:progress="10"
+                        app:progress_color="?attr/colorPrimary"
+                        app:stroke_width="3dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/video_title"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="SONG"
+                        android:textColor="?attr/textcolor"
+                        android:singleLine="true"
+                        android:ellipsize="marquee" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:id="@+id/optiontag"
+            android:background="?android:attr/selectableItemBackground"
+            android:backgroundTint="@color/list_item_selected_state"
+            android:layout_weight="8.5">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/video_options"
+                android:tint="?attr/textcolor"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_more_vectore_20dp"
+                tools:ignore="UseAppTint" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
