@@ -10,7 +10,7 @@
     android:keepScreenOn="true">
     <!--app:surface_type="texture_view"-->
 
-    <com.mxplayer.paksoft.utils.ZoomableExoPlayerView
+    <com.shezz.sa4kvideoplayer.utils.ZoomableExoPlayerView
         android:id="@+id/player_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -35,7 +35,7 @@
                 android:background="@drawable/ic_time_back"
                 android:visibility="gone">
 
-                <com.mxplayer.paksoft.utils.CustomVerticalSeekbar
+                <com.shezz.sa4kvideoplayer.utils.CustomVerticalSeekbar
                     android:id="@+id/volume_seekbar"
                     android:layout_width="wrap_content"
                     android:layout_height="180dp"
@@ -232,7 +232,7 @@
                 </LinearLayout>
             </FrameLayout>
         </RelativeLayout>
-    </com.mxplayer.paksoft.utils.ZoomableExoPlayerView>
+    </com.shezz.sa4kvideoplayer.utils.ZoomableExoPlayerView>
     <RelativeLayout
         android:id="@+id/nightmode"
         android:visibility="gone"

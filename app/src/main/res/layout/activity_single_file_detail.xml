@@ -89,7 +89,7 @@
         android:layout_marginRight="10.0dip"
         android:layout_marginBottom="12.0dip">
 
-        <com.mxplayer.paksoft.floatingactionbutton.FloatingActionButton
+        <com.shezz.sa4kvideoplayer.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_play"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -100,7 +100,7 @@
             app:backgroundTint="@color/colorFabDownload"
             app:fabSize="mini" />
 
-        <com.mxplayer.paksoft.floatingactionbutton.FloatingActionButton
+        <com.shezz.sa4kvideoplayer.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_share"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -111,7 +111,7 @@
             app:backgroundTint="@color/colorFabReload"
             app:fabSize="mini" />
 
-        <com.mxplayer.paksoft.floatingactionbutton.FloatingActionButton
+        <com.shezz.sa4kvideoplayer.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_redownload"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

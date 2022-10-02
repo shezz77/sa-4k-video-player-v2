@@ -111,7 +111,7 @@
                     android:gravity="center"
                     android:paddingLeft="10dp"
                     android:orientation="vertical">
-                    <com.mxplayer.paksoft.LineProgress.LineProgress
+                    <com.shezz.sa4kvideoplayer.LineProgress.LineProgress
                         android:id="@+id/line_progress"
                         android:layout_width="match_parent"
                         android:layout_height="25dp"

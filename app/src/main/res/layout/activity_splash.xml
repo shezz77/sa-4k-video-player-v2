@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F15253"
-    tools:context=".activity.SplashActivity">
+    tools:context="com.shezz.sa4kvideoplayer.activity.SplashActivity">
 
     <RelativeLayout
         android:id="@+id/layout"

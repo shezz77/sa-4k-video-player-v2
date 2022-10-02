@@ -6,7 +6,7 @@
     android:id="@+id/main_content"
     android:background="?attr/backgroundcolor"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="fragment.VideoFolders">
+    tools:context="com.shezz.sa4kvideoplayer.fragment.VideoFolders">
     <RelativeLayout
         android:layout_width="match_parent"
         android:id="@+id/lastinfo"

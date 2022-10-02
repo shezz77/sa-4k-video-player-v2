@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.mxplayer.paksoft.pinlib.views.SquareImageView
+<com.shezz.sa4kvideoplayer.pinlib.views.SquareImageView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/pin_code_round"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="?attr/backgroundcolor"
-    tools:context=".activity.MainActivity">
+    tools:context="com.shezz.sa4kvideoplayer.activity.MainActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -27,7 +27,7 @@
 
     </FrameLayout>
 
-    <com.mxplayer.paksoft.floatingactionbutton.FloatingActionsMenu
+    <com.shezz.sa4kvideoplayer.floatingactionbutton.FloatingActionsMenu
         android:id="@+id/multiple_actions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -43,7 +43,7 @@
         app:fab_addButtonPlusIconColor="@color/white"
         app:fab_labelStyle="@style/menu_labels_style">
 
-        <com.mxplayer.paksoft.floatingactionbutton.FloatingActionButton
+        <com.shezz.sa4kvideoplayer.floatingactionbutton.FloatingActionButton
             android:id="@+id/network_stream"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
             app:fab_icon="@drawable/baseline_language_black_24dp"
             app:fab_title="Network Streaming" />
 
-        <com.mxplayer.paksoft.floatingactionbutton.FloatingActionButton
+        <com.shezz.sa4kvideoplayer.floatingactionbutton.FloatingActionButton
             android:id="@+id/musicplayer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -61,6 +61,6 @@
             app:fab_icon="@drawable/baseline_headphones_black_36dp"
             app:fab_title="Music Library" />
 
-    </com.mxplayer.paksoft.floatingactionbutton.FloatingActionsMenu>
+    </com.shezz.sa4kvideoplayer.floatingactionbutton.FloatingActionsMenu>
 
 </RelativeLayout>
