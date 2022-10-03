@@ -12,7 +12,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.musicplayer.adapter.SongsAdapter;
 import com.shezz.sa4kvideoplayer.musicplayer.helper.ListHelper;
 import com.shezz.sa4kvideoplayer.musicplayer.listener.MusicSelectListener;

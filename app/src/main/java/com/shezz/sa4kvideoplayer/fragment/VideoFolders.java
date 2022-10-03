@@ -36,7 +36,7 @@ import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.RequestConfiguration;
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.activity.lockedmedia;
 import com.shezz.sa4kvideoplayer.adapter.FolderAdapter;
 import com.shezz.sa4kvideoplayer.adapter.RecyclerItemClickListener;

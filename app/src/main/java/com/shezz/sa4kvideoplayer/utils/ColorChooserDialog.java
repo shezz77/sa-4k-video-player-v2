@@ -19,7 +19,7 @@ import android.widget.Button;
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.DialogFragment;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 
 
 public class ColorChooserDialog extends DialogFragment implements View.OnClickListener {

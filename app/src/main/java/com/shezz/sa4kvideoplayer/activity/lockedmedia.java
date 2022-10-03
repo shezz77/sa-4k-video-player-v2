@@ -14,7 +14,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 import androidx.viewpager.widget.ViewPager;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.adapter.TabAdapter;
 import com.shezz.sa4kvideoplayer.fragment.LockVideosList;
 import com.shezz.sa4kvideoplayer.fragment.LockFolders;

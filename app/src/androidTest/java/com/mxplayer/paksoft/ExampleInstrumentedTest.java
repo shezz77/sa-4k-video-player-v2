@@ -1,4 +1,4 @@
-package com.mxplayer.paksoft;
+package com.shezz.sa4kvideoplayer;
 
 import android.content.Context;
 

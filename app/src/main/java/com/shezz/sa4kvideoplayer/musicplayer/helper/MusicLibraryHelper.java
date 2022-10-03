@@ -10,7 +10,7 @@ import android.net.Uri;
 import android.os.ParcelFileDescriptor;
 import android.provider.MediaStore;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.musicplayer.model.Music;
 
 import java.io.File;

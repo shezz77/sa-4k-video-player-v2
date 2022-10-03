@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.pinlib.PinActivity;
 import com.shezz.sa4kvideoplayer.pinlib.enums.KeyboardButtonEnum;
 import com.shezz.sa4kvideoplayer.pinlib.interfaces.KeyboardButtonClickedListener;

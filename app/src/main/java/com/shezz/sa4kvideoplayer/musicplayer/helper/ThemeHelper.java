@@ -9,7 +9,7 @@ import android.util.TypedValue;
 import androidx.core.content.ContextCompat;
 
 import com.shezz.sa4kvideoplayer.MusicPlayerActivity;
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 
 import java.util.HashMap;
 

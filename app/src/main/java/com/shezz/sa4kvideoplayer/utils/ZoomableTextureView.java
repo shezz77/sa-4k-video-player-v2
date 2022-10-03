@@ -12,7 +12,7 @@ import android.view.ScaleGestureDetector;
 import android.view.TextureView;
 import android.view.View;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 
 public class ZoomableTextureView extends TextureView {
     private static final String SUPERSTATE_KEY = "superState";

@@ -11,7 +11,7 @@ import android.util.AttributeSet;
 import androidx.annotation.ColorRes;
 import androidx.annotation.DrawableRes;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 
 public class AddFloatingActionButton extends FloatingActionButton {
   int mPlusColor;

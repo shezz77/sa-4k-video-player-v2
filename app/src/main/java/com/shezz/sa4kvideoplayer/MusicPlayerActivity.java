@@ -21,7 +21,7 @@ import androidx.core.content.ContextCompat;
 import androidx.viewpager.widget.ViewPager;
 
 import com.bumptech.glide.Glide;
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.activity.MainActivity;
 import com.shezz.sa4kvideoplayer.musicplayer.MPConstants;
 import com.shezz.sa4kvideoplayer.musicplayer.MPPreferences;

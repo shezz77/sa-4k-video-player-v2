@@ -25,7 +25,7 @@ import com.google.android.exoplayer2.upstream.cache.CacheDataSourceFactory;
 import com.google.android.exoplayer2.upstream.cache.NoOpCacheEvictor;
 import com.google.android.exoplayer2.upstream.cache.SimpleCache;
 import com.google.android.exoplayer2.util.Util;
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 
 import java.io.File;
 

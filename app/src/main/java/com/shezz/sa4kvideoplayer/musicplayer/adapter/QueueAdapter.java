@@ -11,7 +11,7 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.musicplayer.activities.queue.QueueItemCallback;
 import com.shezz.sa4kvideoplayer.musicplayer.helper.ThemeHelper;
 import com.shezz.sa4kvideoplayer.musicplayer.model.Music;

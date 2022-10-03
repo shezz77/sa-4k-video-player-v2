@@ -26,7 +26,7 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.VideoOptions;
 import com.google.android.gms.ads.nativead.NativeAdView;
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 
 import com.shezz.sa4kvideoplayer.models.FolderModel;
 

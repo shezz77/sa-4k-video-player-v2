@@ -14,7 +14,7 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.pinlib.RippleAnimationListener;
 
 public class RippleView extends RelativeLayout {

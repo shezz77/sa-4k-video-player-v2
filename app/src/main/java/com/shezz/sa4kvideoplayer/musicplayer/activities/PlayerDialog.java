@@ -13,7 +13,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.musicplayer.helper.MusicLibraryHelper;
 import com.shezz.sa4kvideoplayer.musicplayer.model.Music;
 import com.shezz.sa4kvideoplayer.musicplayer.player.PlayerListener;

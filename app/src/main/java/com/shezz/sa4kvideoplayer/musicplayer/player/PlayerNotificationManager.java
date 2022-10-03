@@ -25,7 +25,7 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
 import com.shezz.sa4kvideoplayer.MusicPlayerActivity;
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.musicplayer.helper.MusicLibraryHelper;
 import com.shezz.sa4kvideoplayer.musicplayer.model.Music;
 

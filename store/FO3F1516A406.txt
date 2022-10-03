@@ -5,3 +5,4 @@ app_id: ca-app-pub-6122876240061203~2201801946
 Signing KEy- sa4kvideoplayer.jks
 store pass-  tilakraj8952=#
 pass- =hzG$bkC2,U,d4kB
+Alias name: key0

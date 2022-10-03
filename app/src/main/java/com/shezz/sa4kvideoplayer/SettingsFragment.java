@@ -14,7 +14,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.jgabrielfreitas.core.BlurImageView;
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.musicplayer.MPPreferences;
 import com.shezz.sa4kvideoplayer.musicplayer.helper.ThemeHelper;
 import com.shezz.sa4kvideoplayer.musicplayer.viewmodel.MainViewModel;

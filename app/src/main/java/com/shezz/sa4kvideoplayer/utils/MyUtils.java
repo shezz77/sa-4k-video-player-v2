@@ -16,7 +16,7 @@ import android.util.Log;
 import android.util.TypedValue;
 import android.widget.ImageView;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 
 import java.io.File;
 import java.lang.reflect.Field;

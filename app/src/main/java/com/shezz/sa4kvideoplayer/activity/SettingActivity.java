@@ -20,7 +20,7 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentManager;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.pinlib.CustomPinActivity;
 import com.shezz.sa4kvideoplayer.utils.ColorChooserDialog;
 import com.shezz.sa4kvideoplayer.utils.MyUtils;

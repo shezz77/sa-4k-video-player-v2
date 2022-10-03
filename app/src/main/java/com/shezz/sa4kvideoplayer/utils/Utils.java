@@ -10,7 +10,7 @@ import android.os.Build;
 
 import androidx.annotation.RequiresApi;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;

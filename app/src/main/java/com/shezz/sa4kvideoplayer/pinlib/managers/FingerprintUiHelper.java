@@ -13,7 +13,7 @@ import android.security.keystore.KeyProperties;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 
 import java.io.IOException;
 import java.security.InvalidAlgorithmParameterException;

@@ -40,7 +40,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.activity.cut_video;
 import com.shezz.sa4kvideoplayer.activity.lockedmedia;
 import com.shezz.sa4kvideoplayer.adapter.RecyclerItemClickListener;

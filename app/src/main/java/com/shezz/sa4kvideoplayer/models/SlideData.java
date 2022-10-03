@@ -1,7 +1,7 @@
 package com.shezz.sa4kvideoplayer.models;
 
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 
 public class SlideData {
 	private String name = "";

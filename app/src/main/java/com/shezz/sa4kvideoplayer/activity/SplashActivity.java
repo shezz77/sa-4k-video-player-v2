@@ -6,7 +6,7 @@ import androidx.core.content.ContextCompat;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 
 
 public class SplashActivity extends AppCompatActivity {

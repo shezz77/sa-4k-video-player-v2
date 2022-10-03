@@ -22,7 +22,7 @@ import android.widget.VideoView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.adapter.VideoAdapter;
 import com.shezz.sa4kvideoplayer.models.VideoModel;
 import com.shezz.sa4kvideoplayer.player.Mediaplayer;

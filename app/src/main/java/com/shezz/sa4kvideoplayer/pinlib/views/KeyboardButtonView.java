@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 import androidx.annotation.IntDef;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.pinlib.RippleAnimationListener;
 import com.shezz.sa4kvideoplayer.pinlib.interfaces.KeyboardButtonClickedListener;
 

@@ -1,7 +1,7 @@
 package com.shezz.sa4kvideoplayer.musicplayer;
 
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.musicplayer.listener.MusicSelectListener;
 
 public class MPConstants {

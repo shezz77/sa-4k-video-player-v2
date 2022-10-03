@@ -28,7 +28,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.adapter.VideoAdapter;
 import com.shezz.sa4kvideoplayer.db.DbHandler;
 import com.shezz.sa4kvideoplayer.models.VideoModel;

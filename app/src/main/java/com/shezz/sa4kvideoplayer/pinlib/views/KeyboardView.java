@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.pinlib.enums.KeyboardButtonEnum;
 import com.shezz.sa4kvideoplayer.pinlib.interfaces.KeyboardButtonClickedListener;
 

@@ -10,7 +10,7 @@ import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 
 public class VideoSliceSeekBar extends androidx.appcompat.widget.AppCompatImageView {
     private static final int SELECT_THUMB_LEFT = 1;

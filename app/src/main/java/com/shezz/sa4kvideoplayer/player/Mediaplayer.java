@@ -56,7 +56,7 @@ import com.google.android.gms.ads.nativead.MediaView;
 import com.google.android.gms.ads.nativead.NativeAd;
 import com.google.android.gms.ads.nativead.NativeAdView;
 import com.shezz.sa4kvideoplayer.App;
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.adapter.VideoAdapter;
 import com.shezz.sa4kvideoplayer.db.DbHandler;
 import com.shezz.sa4kvideoplayer.models.VideoModel;

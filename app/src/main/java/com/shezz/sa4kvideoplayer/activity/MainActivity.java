@@ -41,7 +41,7 @@ import com.shezz.sa4kvideoplayer.MusicPlayerActivity;
 import com.shezz.sa4kvideoplayer.OnlineStreamActivity;
 import com.shezz.sa4kvideoplayer.musicplayer.player.PlayerService;
 import com.shezz.sa4kvideoplayer.pinlib.CustomPinActivity;
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 import com.shezz.sa4kvideoplayer.db.DbHandler;
 import com.shezz.sa4kvideoplayer.floatingactionbutton.FloatingActionButton;
 import com.shezz.sa4kvideoplayer.floatingactionbutton.FloatingActionsMenu;

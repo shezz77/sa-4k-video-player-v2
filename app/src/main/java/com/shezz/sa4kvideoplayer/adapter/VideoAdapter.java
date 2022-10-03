@@ -33,7 +33,7 @@ import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.VideoOptions;
 import com.google.android.gms.ads.nativead.NativeAdView;
 import com.shezz.sa4kvideoplayer.LineProgress.LineProgress;
-import com.mxplayer.paksoft.R;
+import com.shezz.sa4kvideoplayer.R;
 
 import com.shezz.sa4kvideoplayer.db.DbHandler;
 import com.shezz.sa4kvideoplayer.models.VideoModel;
